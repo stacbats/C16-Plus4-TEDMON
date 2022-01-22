@@ -17,4 +17,6 @@ L1: lda $0400       // plus4 $0c00
     sta $d800
     jmp L1
 
-    rts
+    rts 
+// lda $0c00
+// lda 2048
